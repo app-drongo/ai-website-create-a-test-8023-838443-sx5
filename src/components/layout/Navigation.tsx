@@ -22,9 +22,11 @@ export default function Navigation() {
   // ACTION_PLACEHOLDER_END
 
   const navigation = [
-    { name: 'Home', href: '#home' },
-    { name: 'Pricing', href: '#pricing' },
-  ];
+  {
+    name: "Home",
+    href: "#home"
+  }
+];
 
   return (
     <nav className="sticky top-0 z-50 w-full border bg-background/80 backdrop-blur-md">
